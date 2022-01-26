@@ -1,0 +1,47 @@
+body{
+	
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#center {
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  height: 60%;
+  border:  5px solid black;
+  padding: 0 5px solid white;
+  top: 20%;
+  background-color: rgba(255,255,255,.7);
+  left: 25%;
+  right: 25%;
+  width: 50%;
+  margin: 0 auto;
+  position:absolute;
+  bottom:20%;
+}
+table{
+	position:relative;
+	top:20%;
+	justify-content: center;
+}
+h1{
+	text-align:center;
+	top:50px;
+	color:black;
+}
+#btnGetWeather{
+	top:20%;
+	position:relative;
+	justify-content: center;
+	height:50px;
+}
+#resultDiv{
+	position:absolute;
+	bottom:20%;
+	justify-content: center;
+}
+#body1{
+	transition-duration: 4s;
+	background-color: MediumSeaGreen;
+}

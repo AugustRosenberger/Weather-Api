@@ -1,0 +1,43 @@
+<html>
+
+<head>
+	<title>Weather App</title>
+    <!--Weahter app Style sheet-->
+	<link rel="stylesheet" type="text/css" href="WeatherCSS.css"/>
+    <!--Including ajax jquery api, from web source-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <!--page controler javascript -->
+    <script src="weatherJavaScript.js"></script>
+
+</head>
+
+
+
+<body id = "body1" style="font-family:Arial">
+	<br></br>
+	<h1>Find Out Weather In Your City</h1>
+	<div id="center">
+	
+
+	<form>
+	<table>
+        <tr>
+            <td>City</td>
+            <td><input type="text" id="txtCity" /></td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td><input type="text" id="txtCountry" /></td>
+        </tr>
+    </table>
+	<br></br>
+    <input type="button" id="btnGetWeather" value="Get Weather Data">
+	</form>
+
+    <br /><br />
+    <div id="resultDiv">
+    </div>
+	</div>
+</body>
+
+</html>
